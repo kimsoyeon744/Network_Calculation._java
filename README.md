@@ -1,17 +1,17 @@
 # Network_Calculation._java
 
 
-=목적: Java를 사용하여 인터넷 계산기 프로그램 개발
+목적: Java를 사용하여 인터넷 계산기 프로그램 개발
 
 Requirements 
-•	< 요구조건 >:
+
 - Java 소켓 API를 사용하여 클라이언트 및 서버 프로그램 모두 생성
 -	4가지 기본 사칙연산 수행
 -	서버에서 오는 답은 정답이나 에러 메시지여야 함
 -	서버는 여러 클라이언트를 처리할 수 있어야 함
 -	서버 정보는 text file에 저장돼있음 (파일 읽어서 정보 얻어야 함, 파일 없으면 default 정보로 처리)
 
-=Introduction
+#Introduction
 
 In the realm of computer science, understanding how to create applications that can efficiently handle multiple clients is crucial. 
 This tutorial focuses on building a basic calculator that can Add, Subtract, Multiply or Divide two numbers. The server accepts
@@ -26,15 +26,15 @@ In this article, We will see how the java server will perform the basic operatio
 -Java Client
 First, we create and write client-side socket code. In client socket program must know two information
 
-->IP Address of Server and,
-->Port Number
+     ->IP Address of Server and,
+     ->Port Number
 
 -Java Server
 In this Java Server, we are performing simple calculations example addition, subtraction, etc. In this Code 
 first, we receive input from the client-side. when the result is ready java server sends it back to the result client
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-=#Conclusion
+#Conclusion
 By combining multithreading and socket programming in Java, we’ve built a multi-client calculator server that 
 can efficiently handle multiple client connections concurrently. This project provides valuable insights into building 
 scalable and responsive network applications. As you delve deeper into the realm of computer science, remember that
